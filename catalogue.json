@@ -7,7 +7,7 @@
       "description": "2020 QLD state election candidate tweets with gender metadata.",
       "language": "en",
       "bundled": true,
-      "total_size_bytes": 797062,
+      "total_size_bytes": 797758,
       "recommended_for": ["concordance", "token-frequency", "preprocessing"],
       "files": [
         {
@@ -19,6 +19,11 @@
           "path": "ADO/twitter/candidate_info_gender.csv",
           "size": 12475,
           "sha256": "310fffecec4fdc461320eeb3c1a167b6d52e570dfe74a82bb3e2ae57b4413440"
+        },
+        {
+          "path": "ADO/twitter/README.md",
+          "size": 696,
+          "sha256": "3c86810d8b42dbb96dc6b74025199a7a2712d7938840f1b63a6313b9909043dc"
         }
       ]
     },
@@ -28,13 +33,18 @@
       "description": "University of Sydney student newspaper archive.",
       "language": "en",
       "bundled": true,
-      "total_size_bytes": 188074,
+      "total_size_bytes": 191892,
       "recommended_for": ["data-loader", "concordance", "topic-modeling"],
       "files": [
         {
           "path": "SCL/Honi_Soit.zip",
           "size": 188074,
           "sha256": "7c119d258d5687e6daf23b6dfb4a8dcfdf78faffd73fce663c48c48f56488f0b"
+        },
+        {
+          "path": "SCL/README.md",
+          "size": 3818,
+          "sha256": "c2fa94266014f706cb09adcbb37f24c81981a67f5732ff3e8f8aca61cbf264c7"
         }
       ]
     },
@@ -44,7 +54,7 @@
       "description": "Reddit submissions and comments from r/australia and related news subreddits.",
       "language": "en",
       "bundled": false,
-      "total_size_bytes": 36669159,
+      "total_size_bytes": 36762010,
       "recommended_for": ["concordance", "sequential-analysis", "topic-modeling"],
       "files": [
         {
@@ -66,6 +76,11 @@
           "path": "ADO/reddit/newstalk_stories.parquet",
           "size": 232271,
           "sha256": "6f3fa611dda8fc4dbf1565b857d1612c6347e71be2a3edaafaf108de3f6b0f42"
+        },
+        {
+          "path": "ADO/reddit/README.md",
+          "size": 92851,
+          "sha256": "b3419e038270d813b5102d52fab180d54f622b9a8c5ea118b714b0506c470131"
         }
       ]
     }
