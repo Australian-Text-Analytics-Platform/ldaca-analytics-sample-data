@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "_comment": "Catalogue of pre-built .ldaca-snapshot bundles served to the Wordflow demo-snapshots tab. Each entry describes one bundle stored alongside this file. The frontend renders the list with per-entry status (downloaded / not_downloaded / conflict); the backend resolves bundles by `id` and `sha256`. Empty `snapshots` is a valid published state — the tab renders an empty list, no errors. To add a bundle: capture from the live tool, drop the .ldaca-snapshot file in this directory, then append an entry below with its sha256.",
+  "snapshots": []
+}
