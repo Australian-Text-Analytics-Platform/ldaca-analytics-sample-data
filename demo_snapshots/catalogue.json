@@ -1,5 +1,66 @@
 {
   "schema_version": 1,
-  "_comment": "Catalogue of pre-built .ldaca-snapshot bundles served to the Wordflow demo-snapshots tab. Each entry describes one bundle stored alongside this file. The frontend renders the list with per-entry status (downloaded / not_downloaded / conflict); the backend resolves bundles by `id` and `sha256`. Empty `snapshots` is a valid published state — the tab renders an empty list, no errors. To add a bundle: capture from the live tool, drop the .ldaca-snapshot file in this directory, then append an entry below with its sha256.",
-  "snapshots": []
+  "_comment": "Catalogue of pre-built .ldaca-snapshot bundles served to the Wordflow demo-snapshots tab. Each entry describes one bundle stored alongside this file. The frontend renders the list with per-entry status (downloaded / not_downloaded / conflict); the backend resolves bundles by `id` and `sha256`. To add a bundle: capture from the live tool, drop the .ldaca-snapshot file in this directory, then append an entry below with its sha256 (`shasum -a 256 <filename>`).",
+  "snapshots": [
+    {
+      "id": "concordance-scl-honi-soit",
+      "filename": "concordance-SCL_Honi_Soit.ldaca-snapshot",
+      "path": "demo_snapshots/concordance-SCL_Honi_Soit.ldaca-snapshot",
+      "tool": "concordance",
+      "name": "Concordance — Honi Soit (Student / staff / university)",
+      "description": "Concordance over the SCL Honi Soit corpus searching for `Student\\w*|staff|universit\\w+` — 1,318 hits across 100 documents.",
+      "size": 6922743,
+      "sha256": "d64e6d9b203995ad724349f0cd40e6b5dd9e437081a0a26171667bf4f6dab656",
+      "tool_version": "0.5.1",
+      "recommended_dataset": "SCL"
+    },
+    {
+      "id": "quotation-scl-honi-soit",
+      "filename": "quotation-SCL_Honi_Soit.ldaca-snapshot",
+      "path": "demo_snapshots/quotation-SCL_Honi_Soit.ldaca-snapshot",
+      "tool": "quotation",
+      "name": "Quotation — Honi Soit",
+      "description": "Quotation extraction over the SCL Honi Soit corpus — 870 quotes across 100 documents.",
+      "size": 9860943,
+      "sha256": "137a1102a0dab8271041efad34f403154399ac8314ed410c35e9887611f229c9",
+      "tool_version": "0.5.1",
+      "recommended_dataset": "SCL"
+    },
+    {
+      "id": "sequential-analysis-qld-election-tweets",
+      "filename": "sequential_analysis-QLD_Election_Tweets_conc.ldaca-snapshot",
+      "path": "demo_snapshots/sequential_analysis-QLD_Election_Tweets_conc.ldaca-snapshot",
+      "tool": "sequential_analysis",
+      "name": "Trends — QLD Election Tweets",
+      "description": "Trends over candidate tweets from the 2020 QLD state election — 52 series across 253 time buckets.",
+      "size": 211689,
+      "sha256": "fd895ef69c7089c1011d71ce7a941e8e53fffd4672ef92c31d32564e9f0d4bbc",
+      "tool_version": "0.5.1",
+      "recommended_dataset": "ADO/twitter"
+    },
+    {
+      "id": "token-frequencies-newstalk-left-vs-right",
+      "filename": "token_frequencies-Freq_Analysis_Newstalk.ldaca-snapshot",
+      "path": "demo_snapshots/token_frequencies-Freq_Analysis_Newstalk.ldaca-snapshot",
+      "tool": "token_frequencies",
+      "name": "Token frequencies — Newstalk (left vs right)",
+      "description": "Token frequencies over Newstalk Reddit threads split by outlet (Guardian/IA vs Sky/PerthNow) — 2,867-word vocabulary across 422 documents.",
+      "size": 2253162,
+      "sha256": "cb47064607218b5a5fc29a9910ac80c102a10499efa09bc9604bd2746ffe022c",
+      "tool_version": "0.5.1",
+      "recommended_dataset": "ADO/reddit"
+    },
+    {
+      "id": "topic-modeling-newstalk-left-vs-right",
+      "filename": "topic_modeling-newstalk_left_vs_right.ldaca-snapshot",
+      "path": "demo_snapshots/topic_modeling-newstalk_left_vs_right.ldaca-snapshot",
+      "tool": "topic_modeling",
+      "name": "Topic modelling — Newstalk (left vs right)",
+      "description": "BERTopic over Newstalk Reddit threads split by outlet (Guardian/IA vs Sky/PerthNow) — 8 topics across 422 documents.",
+      "size": 9260,
+      "sha256": "3e8be280340292a574f49462fc2eacb67f5b50cec16bf8b67b8a9a92b7e2ce39",
+      "tool_version": "0.5.1",
+      "recommended_dataset": "ADO/reddit"
+    }
+  ]
 }

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "mode": "demo",
+  "tool": "quotation",
+  "tool_version": "0.5.1",
+  "captured_at": "2026-05-24T07:10:33.903Z",
+  "title": "SCL_Honi_Soit",
+  "source": {
+    "workspace_id": "99965ade-7db2-4cad-9731-6214ac7e7def",
+    "workspace_name": "Tour",
+    "node_ids": [
+      "0523e6dc-c4a7-4180-a730-9db2ac93ba7a"
+    ],
+    "node_labels": [
+      "SCL/Honi_Soit.zip"
+    ],
+    "per_block_rows": [
+      100
+    ],
+    "total_source_rows": 100
+  },
+  "capabilities": {
+    "canPaginate": true,
+    "canSortAndFilterResult": true,
+    "canExport": true,
+    "canFilterSourceRows": false,
+    "canCrossJump": false
+  },
+  "preview": {
+    "tool": "quotation",
+    "openPattern": "(quotation rules)",
+    "closePattern": "",
+    "totalHits": 870,
+    "displayColumns": [
+      "QUOTE_extraction",
+      "document",
+      "file_path",
+      "base_name",
+      "extension",
+      "QUOTE_speaker",
+      "QUOTE_speaker_start_idx",
+      "QUOTE_speaker_end_idx",
+      "QUOTE_quote",
+      "QUOTE_quote_start_idx",
+      "QUOTE_quote_end_idx",
+      "QUOTE_verb",
+      "QUOTE_verb_start_idx",
+      "QUOTE_verb_end_idx",
+      "QUOTE_quote_type",
+      "QUOTE_quote_token_count",
+      "QUOTE_is_floating_quote",
+      "QUOTE_quote_row_idx"
+    ]
+  },
+  "payloads": [
+    {
+      "kind": "result",
+      "path": "tables/result.json"
+    },
+    {
+      "kind": "settings",
+      "path": "settings.json"
+    }
+  ],
+  "node_colors": {
+    "0523e6dc-c4a7-4180-a730-9db2ac93ba7a": "#d97706"
+  }
+}

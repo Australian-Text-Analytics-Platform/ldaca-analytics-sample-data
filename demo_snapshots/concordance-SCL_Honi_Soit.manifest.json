@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "mode": "demo",
+  "tool": "concordance",
+  "tool_version": "0.5.1",
+  "captured_at": "2026-05-24T06:13:17.816Z",
+  "title": "SCL_Honi_Soit",
+  "source": {
+    "workspace_id": "99965ade-7db2-4cad-9731-6214ac7e7def",
+    "workspace_name": "Tour",
+    "node_ids": [
+      "0523e6dc-c4a7-4180-a730-9db2ac93ba7a"
+    ],
+    "node_labels": [
+      "SCL/Honi_Soit.zip"
+    ],
+    "per_block_rows": [
+      100
+    ],
+    "total_source_rows": 100
+  },
+  "capabilities": {
+    "canPaginate": true,
+    "canSortAndFilterResult": true,
+    "canExport": true,
+    "canFilterSourceRows": false,
+    "canCrossJump": false
+  },
+  "preview": {
+    "tool": "concordance",
+    "searchTerm": "Student\\w*|staff|universit\\w+",
+    "totalHits": 1318,
+    "materialised": true,
+    "displayColumns": [
+      "document",
+      "file_path",
+      "base_name",
+      "extension",
+      "CONC_left_context",
+      "CONC_matched_text",
+      "CONC_right_context",
+      "CONC_start_idx",
+      "CONC_end_idx",
+      "CONC_l1",
+      "CONC_r1",
+      "CONC_extraction",
+      "CONC_l1_freq",
+      "CONC_r1_freq",
+      "__source_node"
+    ]
+  },
+  "payloads": [
+    {
+      "kind": "result",
+      "path": "tables/result.json"
+    },
+    {
+      "kind": "dispersion-bins",
+      "path": "tables/dispersion-bins.json"
+    },
+    {
+      "kind": "settings",
+      "path": "settings.json"
+    }
+  ],
+  "node_colors": {
+    "0523e6dc-c4a7-4180-a730-9db2ac93ba7a": "#d97706"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "mode": "demo",
+  "tool": "topic_modeling",
+  "tool_version": "0.5.1",
+  "captured_at": "2026-05-24T07:01:11.049Z",
+  "title": "newstalk_left_vs_right",
+  "source": {
+    "workspace_id": "6a38ac0d-e7de-4a17-a093-fc23b840789b",
+    "workspace_name": "Wordflow",
+    "node_ids": [
+      "2efc03f2-56cd-4a7b-a47a-7170c8c66c3f",
+      "21b47c0e-aa8d-4c5b-a5d8-66c1d13f03f4"
+    ],
+    "node_labels": [
+      "newstalk_guardian_or_ia",
+      "newstalk_sky_or_perthnow"
+    ],
+    "per_block_rows": [
+      121,
+      301
+    ],
+    "total_source_rows": 422
+  },
+  "capabilities": {
+    "canPaginate": false,
+    "canSortAndFilterResult": true,
+    "canExport": true,
+    "canFilterSourceRows": false,
+    "canCrossJump": false
+  },
+  "preview": {
+    "tool": "topic_modeling",
+    "numTopics": 8,
+    "vocabSize": 284,
+    "embedder": "bertopic",
+    "wordsPerTopic": 15
+  },
+  "payloads": [
+    {
+      "kind": "result",
+      "path": "tables/result.json"
+    },
+    {
+      "kind": "settings",
+      "path": "settings.json"
+    }
+  ],
+  "node_colors": {
+    "2efc03f2-56cd-4a7b-a47a-7170c8c66c3f": "#65a30d",
+    "21b47c0e-aa8d-4c5b-a5d8-66c1d13f03f4": "#db2777"
+  }
+}
