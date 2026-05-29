@@ -2,22 +2,22 @@
   "schema_version": 1,
   "mode": "demo",
   "tool": "sequential_analysis",
-  "tool_version": "0.5.1",
-  "captured_at": "2026-05-24T06:30:24.889Z",
+  "tool_version": "0.5.5",
+  "captured_at": "2026-05-29T06:29:49.788Z",
   "title": "QLD_Election_Tweets_conc",
   "source": {
-    "workspace_id": "6a38ac0d-e7de-4a17-a093-fc23b840789b",
+    "workspace_id": "ce852f9f-c0f6-4aa3-8d29-4a72d0459f2c",
     "workspace_name": "Wordflow",
     "node_ids": [
-      "a0257ae8-7520-4161-9bd4-9c933e2f8527"
+      "bb31b943-42ce-41f2-9520-916b4a1e5a8d"
     ],
     "node_labels": [
-      "QLD_Tweets_conc"
+      "qldelection2020_conc"
     ],
     "per_block_rows": [
-      1278
+      767
     ],
-    "total_source_rows": 1278
+    "total_source_rows": 767
   },
   "capabilities": {
     "canPaginate": false,
@@ -28,8 +28,8 @@
   },
   "preview": {
     "tool": "sequential_analysis",
-    "seriesCount": 52,
-    "bucketCount": 253,
+    "seriesCount": 21,
+    "bucketCount": 195,
     "chartType": "line"
   },
   "payloads": [
@@ -43,6 +43,6 @@
     }
   ],
   "node_colors": {
-    "a0257ae8-7520-4161-9bd4-9c933e2f8527": "#0d9488"
+    "bb31b943-42ce-41f2-9520-916b4a1e5a8d": "#2563eb"
   }
 }
