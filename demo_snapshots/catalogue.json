@@ -32,10 +32,10 @@
       "path": "demo_snapshots/sequential_analysis-QLD_Election_Tweets_conc.ldaca-snapshot",
       "tool": "sequential_analysis",
       "name": "Trends — QLD Election Tweets",
-      "description": "Trends over candidate tweets from the 2020 QLD state election — 52 series across 253 time buckets.",
-      "size": 211689,
-      "sha256": "fd895ef69c7089c1011d71ce7a941e8e53fffd4672ef92c31d32564e9f0d4bbc",
-      "tool_version": "0.5.1",
+      "description": "Trends over candidate tweets from the 2020 QLD state election — 21 series across 195 time buckets.",
+      "size": 111081,
+      "sha256": "69dc35274e1878bdce9c716b60408dab997ec54f66219c78eea4cae9ba521530",
+      "tool_version": "0.5.5",
       "recommended_dataset": "ADO/twitter"
     },
     {
