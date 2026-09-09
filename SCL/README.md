@@ -63,3 +63,9 @@ We are grateful to the Honi Soit editorial team for giving us permission to comp
 
 - Hester, J. B., and Dougall, E. (2007). 'The efficiency of constructed week sampling for content analysis of online news'. *Journalism & Mass Communication Quarterly* 84(4): 811–824.
 - Luke, D. A., Caburnay, A., and Cohen, E. L. (2011). 'How much is enough? New recommendations for using constructed week sampling in newspaper content analysis of health stories'. *Communication Methods and Measures* 5(1): 76–91.
+
+## Parquet distribution
+
+`Honi_Soit.parquet` contains one row per article (100 rows), with `file_path`,
+`base_name`, `extension`, and `document` columns. Original UTF-8 text, including
+line endings, is preserved. This replaces the ZIP distribution described above.

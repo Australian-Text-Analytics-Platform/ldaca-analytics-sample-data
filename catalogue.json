@@ -3,84 +3,106 @@
   "collections": [
     {
       "id": "ADO/twitter",
-      "name": "ADO — Queensland Election Tweets",
+      "name": "ADO \u2014 Queensland Election Tweets",
       "description": "2020 QLD state election candidate tweets with gender metadata.",
       "language": "en",
       "bundled": true,
-      "total_size_bytes": 797758,
-      "recommended_for": ["concordance", "token-frequency", "preprocessing"],
+      "total_size_bytes": 248767,
+      "recommended_for": [
+        "concordance",
+        "token-frequency",
+        "preprocessing"
+      ],
       "files": [
         {
-          "path": "ADO/twitter/qldelection2020_candidate_tweets.csv",
+          "path": "ADO/twitter/qldelection2020_candidate_tweets.parquet",
           "size": 784587,
-          "sha256": "ed3d99cb38a4efe04fcb4ac962b9f251f843e13937e517fa8a9aeda0d0220df7"
+          "sha256": "5e3c16c08f2a16fcb72325d14406637a9cf6e1750b9563b98ee16c6d7bfd7aa1",
+          "size_bytes": 239946
         },
         {
-          "path": "ADO/twitter/candidate_info_gender.csv",
+          "path": "ADO/twitter/candidate_info_gender.parquet",
           "size": 12475,
-          "sha256": "310fffecec4fdc461320eeb3c1a167b6d52e570dfe74a82bb3e2ae57b4413440"
+          "sha256": "24f593d6851b18bf97d3e97cb5b0aae9d00ccfff062de7d7595aa31d965fc716",
+          "size_bytes": 7859
         },
         {
           "path": "ADO/twitter/README.md",
           "size": 696,
-          "sha256": "3c86810d8b42dbb96dc6b74025199a7a2712d7938840f1b63a6313b9909043dc"
+          "sha256": "2a859ef2a257afc4fc5349dcd8d464db334a129e774de7f6e119a902db53f469",
+          "size_bytes": 962
         }
       ]
     },
     {
       "id": "SCL",
-      "name": "SCL — Honi Soit Student Newspaper",
+      "name": "SCL \u2014 Honi Soit Student Newspaper",
       "description": "University of Sydney student newspaper archive.",
       "language": "en",
       "bundled": true,
-      "total_size_bytes": 191892,
-      "recommended_for": ["data-loader", "concordance", "topic-modeling"],
+      "total_size_bytes": 164711,
+      "recommended_for": [
+        "data-loader",
+        "concordance",
+        "topic-modeling"
+      ],
       "files": [
         {
-          "path": "SCL/Honi_Soit.zip",
+          "path": "SCL/Honi_Soit.parquet",
           "size": 188074,
-          "sha256": "7c119d258d5687e6daf23b6dfb4a8dcfdf78faffd73fce663c48c48f56488f0b"
+          "sha256": "e8d43d4f79275db1bbf172fd611ed0faa4ded93c211f94c2ed7368ad41ffce7c",
+          "size_bytes": 160627
         },
         {
           "path": "SCL/README.md",
           "size": 3818,
-          "sha256": "c2fa94266014f706cb09adcbb37f24c81981a67f5732ff3e8f8aca61cbf264c7"
+          "sha256": "806e7594f73714066b461f7d89e66e77665d0b7b99782293ff380e0feb72be32",
+          "size_bytes": 4084
         }
       ]
     },
     {
       "id": "ADO/reddit",
-      "name": "ADO — Reddit (Australian News)",
+      "name": "ADO \u2014 Reddit (Australian News)",
       "description": "Reddit submissions and comments from r/australia and related news subreddits.",
       "language": "en",
       "bundled": false,
       "total_size_bytes": 36762010,
-      "recommended_for": ["concordance", "sequential-analysis", "topic-modeling"],
+      "recommended_for": [
+        "concordance",
+        "sequential-analysis",
+        "topic-modeling"
+      ],
       "files": [
         {
           "path": "ADO/reddit/reddit_comments.parquet",
           "size": 20745536,
-          "sha256": "000040cbff91d56a14db8249bc82dc1081582b06b0e4735f8fc187c157a5dfa6"
+          "sha256": "000040cbff91d56a14db8249bc82dc1081582b06b0e4735f8fc187c157a5dfa6",
+          "size_bytes": 20745536
         },
         {
           "path": "ADO/reddit/reddit_submissions.parquet",
           "size": 2857251,
-          "sha256": "6b00dd435d94f04b9631684e2c11010afe0cfff1a1d9fdc1b00ba6a1ffcef384"
+          "sha256": "6b00dd435d94f04b9631684e2c11010afe0cfff1a1d9fdc1b00ba6a1ffcef384",
+          "size_bytes": 2857251
         },
         {
           "path": "ADO/reddit/newstalk_comments.parquet",
           "size": 12834101,
-          "sha256": "4ea7beade887de57c2b1622368b08dc98c99efd6fa09bcaea2d7991f5c637e77"
+          "sha256": "4ea7beade887de57c2b1622368b08dc98c99efd6fa09bcaea2d7991f5c637e77",
+          "size_bytes": 12834101
         },
         {
           "path": "ADO/reddit/newstalk_stories.parquet",
           "size": 232271,
-          "sha256": "6f3fa611dda8fc4dbf1565b857d1612c6347e71be2a3edaafaf108de3f6b0f42"
+          "sha256": "6f3fa611dda8fc4dbf1565b857d1612c6347e71be2a3edaafaf108de3f6b0f42",
+          "size_bytes": 232271
         },
         {
           "path": "ADO/reddit/README.md",
           "size": 92851,
-          "sha256": "b3419e038270d813b5102d52fab180d54f622b9a8c5ea118b714b0506c470131"
+          "sha256": "b3419e038270d813b5102d52fab180d54f622b9a8c5ea118b714b0506c470131",
+          "size_bytes": 92851
         }
       ]
     }
