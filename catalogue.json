@@ -16,19 +16,19 @@
       "files": [
         {
           "path": "ADO/twitter/qldelection2020_candidate_tweets.parquet",
-          "size": 784587,
+          "size": 239946,
           "sha256": "5e3c16c08f2a16fcb72325d14406637a9cf6e1750b9563b98ee16c6d7bfd7aa1",
           "size_bytes": 239946
         },
         {
           "path": "ADO/twitter/candidate_info_gender.parquet",
-          "size": 12475,
+          "size": 7859,
           "sha256": "24f593d6851b18bf97d3e97cb5b0aae9d00ccfff062de7d7595aa31d965fc716",
           "size_bytes": 7859
         },
         {
           "path": "ADO/twitter/README.md",
-          "size": 696,
+          "size": 962,
           "sha256": "2a859ef2a257afc4fc5349dcd8d464db334a129e774de7f6e119a902db53f469",
           "size_bytes": 962
         }
@@ -49,13 +49,13 @@
       "files": [
         {
           "path": "SCL/Honi_Soit.parquet",
-          "size": 188074,
+          "size": 160627,
           "sha256": "e8d43d4f79275db1bbf172fd611ed0faa4ded93c211f94c2ed7368ad41ffce7c",
           "size_bytes": 160627
         },
         {
           "path": "SCL/README.md",
-          "size": 3818,
+          "size": 4084,
           "sha256": "806e7594f73714066b461f7d89e66e77665d0b7b99782293ff380e0feb72be32",
           "size_bytes": 4084
         }

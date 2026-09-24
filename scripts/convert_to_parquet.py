@@ -53,6 +53,12 @@ for collection in catalogue['collections']:
     for entry in collection['files']:
         entry['path'] = entry['path'].replace('.csv', '.parquet').replace('.zip', '.parquet')
         content = (ROOT / entry['path']).read_bytes()
-        entry.update(size_bytes=len(content), sha256=hashlib.sha256(content).hexdigest())
+        # Wordflow's catalogue contract reads `size`; keep `size_bytes` for the
+        # DuckDB views. Both must hold the real byte count.
+        entry.update(
+            size=len(content),
+            size_bytes=len(content),
+            sha256=hashlib.sha256(content).hexdigest(),
+        )
     collection['total_size_bytes'] = sum(entry['size_bytes'] for entry in collection['files'])
 catalogue_path.write_text(json.dumps(catalogue, indent=2) + '\n')
