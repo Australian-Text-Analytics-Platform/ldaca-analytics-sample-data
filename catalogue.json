@@ -105,6 +105,86 @@
           "size_bytes": 92851
         }
       ]
+    },
+    {
+      "id": "RAPID-CDL/hansard_au_gst",
+      "name": "RAPID-CDL: Australian Hansard, GST",
+      "description": "Australian Federal Parliament paragraphs mentioning GST, 1998 to 2026, with sitting dates, debate titles, surrounding paragraphs and a speaker table to join.",
+      "language": "en",
+      "bundled": false,
+      "total_size_bytes": 22489403,
+      "recommended_for": [
+        "concordance",
+        "token-frequency",
+        "trends",
+        "topic-modeling"
+      ],
+      "files": [
+        {
+          "path": "RAPID-CDL/hansard_au_gst/Hansard_AU_gst_metadata.parquet",
+          "size": 7984759,
+          "sha256": "b49403b0a0a17fad9c565960212122aed8f8fd48ae1717c1a88b651d4230778e",
+          "size_bytes": 7984759
+        },
+        {
+          "path": "RAPID-CDL/hansard_au_gst/Hansard_AU_gst_context_metadata.parquet",
+          "size": 14477626,
+          "sha256": "057bebdac747892b1142c1d591acfbc1a972e4217124dbdb647fd705fd057bf0",
+          "size_bytes": 14477626
+        },
+        {
+          "path": "RAPID-CDL/hansard_au_gst/speaker_detail.parquet",
+          "size": 17150,
+          "sha256": "92fdbaa6f6f030e1df87118e898c990da6c197ce3fc555a1156ac51e72b50aa9",
+          "size_bytes": 17150
+        },
+        {
+          "path": "RAPID-CDL/hansard_au_gst/README.md",
+          "size": 9868,
+          "sha256": "eb893051b70b682392635b51150c06223efb6f1710b74e48188a66d0f3a5dc74",
+          "size_bytes": 9868
+        }
+      ]
+    },
+    {
+      "id": "RAPID-CDL/hansard_au_housing",
+      "name": "RAPID-CDL: Australian Hansard, housing",
+      "description": "Australian Federal Parliament paragraphs about housing, homelessness, home ownership, mortgages and renting, 1998 to 2026, with sitting dates, debate titles, surrounding paragraphs and a speaker table to join.",
+      "language": "en",
+      "bundled": false,
+      "total_size_bytes": 49949898,
+      "recommended_for": [
+        "concordance",
+        "token-frequency",
+        "trends",
+        "topic-modeling"
+      ],
+      "files": [
+        {
+          "path": "RAPID-CDL/hansard_au_housing/Hansard_AU_housing_metadata.parquet",
+          "size": 17362603,
+          "sha256": "2a273bcdd8d25fd5c4a0e430a1f81b7666e035a5ecf36e1486d6b51e5a3f449d",
+          "size_bytes": 17362603
+        },
+        {
+          "path": "RAPID-CDL/hansard_au_housing/Hansard_AU_housing_context_metadata.parquet",
+          "size": 32558467,
+          "sha256": "605b9f4f42611561af74f0f20ae1f8118f66fee104b410f058266db6444451be",
+          "size_bytes": 32558467
+        },
+        {
+          "path": "RAPID-CDL/hansard_au_housing/speaker_detail.parquet",
+          "size": 17150,
+          "sha256": "92fdbaa6f6f030e1df87118e898c990da6c197ce3fc555a1156ac51e72b50aa9",
+          "size_bytes": 17150
+        },
+        {
+          "path": "RAPID-CDL/hansard_au_housing/README.md",
+          "size": 11678,
+          "sha256": "5679da0318c47029c534dbf12fd7d88c86046eab104a19e3b78083faf6c5b9e3",
+          "size_bytes": 11678
+        }
+      ]
     }
   ]
 }
