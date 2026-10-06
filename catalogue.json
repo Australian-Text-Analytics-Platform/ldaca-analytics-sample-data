@@ -40,7 +40,7 @@
       "description": "University of Sydney student newspaper archive.",
       "language": "en",
       "bundled": true,
-      "total_size_bytes": 164711,
+      "total_size_bytes": 191892,
       "recommended_for": [
         "data-loader",
         "concordance",
@@ -48,16 +48,16 @@
       ],
       "files": [
         {
-          "path": "SCL/Honi_Soit.parquet",
-          "size": 160627,
-          "sha256": "e8d43d4f79275db1bbf172fd611ed0faa4ded93c211f94c2ed7368ad41ffce7c",
-          "size_bytes": 160627
+          "path": "SCL/Honi_Soit.zip",
+          "size": 188074,
+          "sha256": "7c119d258d5687e6daf23b6dfb4a8dcfdf78faffd73fce663c48c48f56488f0b",
+          "size_bytes": 188074
         },
         {
           "path": "SCL/README.md",
-          "size": 4084,
-          "sha256": "806e7594f73714066b461f7d89e66e77665d0b7b99782293ff380e0feb72be32",
-          "size_bytes": 4084
+          "size": 3818,
+          "sha256": "c2fa94266014f706cb09adcbb37f24c81981a67f5732ff3e8f8aca61cbf264c7",
+          "size_bytes": 3818
         }
       ]
     },

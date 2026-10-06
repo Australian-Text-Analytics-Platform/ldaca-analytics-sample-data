@@ -1,11 +1,13 @@
-"""Rebuild Parquet corpora from the last CSV/ZIP revision. Requires pyarrow==23.0.1."""
+"""Rebuild the Queensland election Parquet tables from the last CSV revision. Requires pyarrow==23.0.1.
+
+Honi Soit stays a ZIP of text files: it demonstrates archive loading in the Data Loader.
+"""
 import csv
 import hashlib
 import io
 import json
-from pathlib import Path, PurePosixPath
+from pathlib import Path
 import subprocess
-import zipfile
 
 import pyarrow as pa
 import pyarrow.parquet as pq
@@ -37,21 +39,11 @@ for stem in ['qldelection2020_candidate_tweets', 'candidate_info_gender']:
         assert before == {key: '' if value is None else str(value) for key, value in after.items()}
     write(source.replace('.csv', '.parquet'), table)
 
-with zipfile.ZipFile(io.BytesIO(original('SCL/Honi_Soit.zip'))) as archive:
-    rows = []
-    for filename in sorted(archive.namelist()):
-        path = PurePosixPath(filename)
-        if path.suffix == '.txt':
-            rows.append(dict(file_path=filename, base_name=path.stem, extension=path.suffix,
-                             document=archive.read(filename).decode('utf-8')))
-    assert len(rows) == 100
-    write('SCL/Honi_Soit.parquet', pa.Table.from_pylist(rows))
-
 catalogue_path = ROOT / 'catalogue.json'
 catalogue = json.loads(catalogue_path.read_text())
 for collection in catalogue['collections']:
     for entry in collection['files']:
-        entry['path'] = entry['path'].replace('.csv', '.parquet').replace('.zip', '.parquet')
+        entry['path'] = entry['path'].replace('.csv', '.parquet')
         content = (ROOT / entry['path']).read_bytes()
         # Wordflow's catalogue contract reads `size`; keep `size_bytes` for the
         # DuckDB views. Both must hold the real byte count.
